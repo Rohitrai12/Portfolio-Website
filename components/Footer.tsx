@@ -1,5 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import Link from "next/link";
+import Image from "next/image"; // Import the Image component from next/image
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 import { gridItems } from "@/data";
@@ -10,10 +11,12 @@ const Footer = () => {
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
+        <Image
           src="/footer-grid.svg"
           alt="grid"
-          className="w-full h-full opacity-50 "
+          layout="fill" // Use layout fill to ensure the image covers its container
+          objectFit="cover" // Adjust object-fit to cover the container
+          className="opacity-50"
         />
       </div>
 
@@ -48,7 +51,7 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 text-white">
-                <img
+                <Image
                   src={info.img}
                   alt="icons"
                   width={20}
