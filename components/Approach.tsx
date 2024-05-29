@@ -60,7 +60,7 @@ const Approach = () => {
       </div>
       <Image
         src={BannerImg}
-        className="w-[970px] mx-auto mt-[158px] rounded-md	"
+        className="w-[970px] mx-auto mt-[158px] rounded-md" alt="image"
       />
     </div>
   );
