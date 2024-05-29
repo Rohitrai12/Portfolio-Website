@@ -36,17 +36,17 @@ const Grid = () => {
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="white"
-          style={{ backgroundColor: "white" }} // Set background color for the first box
+          // style={{ backgroundColor: "white" }} // Set background color for the first box
         />
         <Spotlight
           className="h-[80vh] w-[50vw] top-10 left-full"
           fill="purple"
-          style={{ backgroundColor: "purple" }} // Set background color for the second box
+          // style={{ backgroundColor: "purple" }} // Set background color for the second box
         />
         <Spotlight
           className="left-80 top-28 h-[80vh] w-[50vw]"
           fill="blue"
-          style={{ backgroundColor: "blue" }} // Set background color for the third box
+          // style={{ backgroundColor: "blue" }} // Set background color for the third box
         />
       </div>
 
@@ -68,7 +68,7 @@ const Grid = () => {
             <a
               href="https://www.linkedin.com/in/rohitrai0/"
               target="blank"
-              style={{ "--i": 7 }}
+              // style={{ "--i": 7 }}
               rel="noopener noreferrer"
             >
               <FaLinkedin />
@@ -76,7 +76,7 @@ const Grid = () => {
             <a
               href="https://github.com/Rohitrai12/"
               target="blank"
-              style={{ "--i": 8 }}
+              // style={{ "--i": 8 }}
               rel="noopener noreferrer"
             >
               <FaGithub />
@@ -84,7 +84,7 @@ const Grid = () => {
             <a
               href="https://x.com/Rohitrai_09"
               target="blank"
-              style={{ "--i": 9 }}
+              // style={{ "--i": 9 }}
               rel="noopener noreferrer"
             >
               <FaSquareXTwitter />
@@ -92,7 +92,7 @@ const Grid = () => {
             <a
               href="https://linktr.ee/rohitrai2"
               target="blank"
-              style={{ "--i": 10 }}
+              // style={{ "--i": 10 }}
               rel="noopener noreferrer"
             >
               <FaLink />
