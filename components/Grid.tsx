@@ -6,7 +6,9 @@ import Typed from "typed.js";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import Image from "next/image";
 import { FaLink } from "react-icons/fa";
+import lapt from "../public/aaa.jpg";
 
 const Grid = () => {
   useEffect(() => {
@@ -109,7 +111,7 @@ const Grid = () => {
         </div>
 
         <div className="home-image">
-          <img src="aaa.jpg" alt="Hero Image" />
+          <Image src={lapt} alt="Hero Image" />
         </div>
       </section>
     </div>
