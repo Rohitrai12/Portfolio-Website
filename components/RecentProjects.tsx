@@ -72,9 +72,9 @@ const RecentProjects = () => {
                       <Image
                         src={icon}
                         alt={`icon${index}`}
-                        width={20}
+                        width={140}
                         height={20}
-                        className="p-2"
+                        className="p-2 iconlab"
                       />
                     </div>
                   ))}
@@ -126,6 +126,10 @@ const RecentProjects = () => {
 
         .project-card a:hover .text-purple {
           color: #ffffff;
+        }
+
+        .iconlab{
+          width:23px !impotant
         }
       `}</style>
     </div>
