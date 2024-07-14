@@ -60,10 +60,8 @@ const Grid = () => {
             And I'm a <span className="multiple-text"></span>
           </h3>
           <p>
-            I am Frontend Developer experience in Creating Professional, Modern
-            Websites. Building Full stack Web Application with User
-            Authentication and Payment Gateway and All Features that You can
-            Imagine!
+            I am Frontend Developer experience in Web Designing. Deploy Professional, Modern Websites.
+            Experience in Web Development and UI/UX Designing
           </p>
 
           <div className="social-media">
